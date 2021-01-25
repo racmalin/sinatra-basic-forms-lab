@@ -2,7 +2,7 @@ class Puppy
 
     attr_accessor :name, :breed, :age
 
-    @@all = []
+    
 
     def initialize(name, breed, age)
         @name = name
@@ -10,8 +10,5 @@ class Puppy
         @age = age
     end
 
-    def self
-        @all << self
-    end
 
 end
